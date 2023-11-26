@@ -1,0 +1,55 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+background-color: plum;
+display: flex;
+flex-direction: column;
+min-height: 95vh;
+font-size: 50px
+}
+@media (max-width:600px) {
+    .logo{
+        width: 100px;
+        
+    }
+    h1{
+        color: blue !important;
+    }
+    
+
+}
+.main{
+    flex: 1;
+}
+.cointainer{
+    /* background-color: black; */
+    height: 100vh;
+    padding: 20px;
+    margin:20px;
+    border: 2rem solid black;
+}
+h1{
+    font-size: 8rem;
+    color: red;
+}
+p{
+    font-size: 80px;
+    text-align:center;
+}
+.flower{
+    color: blueviolet;
+}
+.nature{
+    color: blueviolet;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+img{
+    height: 50vh;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
